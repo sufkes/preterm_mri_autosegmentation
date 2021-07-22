@@ -1,0 +1,6 @@
+Folder,dim_x,dim_y,dim_z,subvolume_size,note,epochs,loss_name,learning_rate,weight_decay,batch_size,shuffle,drop_last,optimizer,dropout_prob,time_elapsed,best_epoch,mse_mean_val,mse_mean_train
+V02 Mask Pretrain,100,120,105,100 120 105,,120,DiceLoss,0.01,0,1,1,0,Adam,0,38608.36 sec,61,0.183559896,0.128587502
+V02 Mask,100,120,105,100 120 105,,120,DiceLoss,0.01,0,1,TRUE,FALSE,Adam,0,38874.89 sec,111,0.112679402,0.046329504
+V02 No Mask,100,120,105,100 120 105,,120,DiceLoss,0.01,0,1,TRUE,FALSE,Adam,0,42913.57 sec,78,0.099618629,0.051635782
+V02 No Mask Pretrain,100,120,105,100 120 105,,120,DiceLoss,0.01,0,1,TRUE,FALSE,Adam,0,43391.8 sec,39,0.093858646,0.062971047
+V02 No Mask No Pretrain,100,120,105,100 120 105,,120,DiceLoss,0.01,0,1,TRUE,FALSE,Adam,0,43624.8 sec,58,0.095663127,0.045329587

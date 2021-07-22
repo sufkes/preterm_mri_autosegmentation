@@ -1,0 +1,7 @@
+dim_x,dim_y,dim_z,subvolume_size,note,epochs,loss_name,learning_rate,weight_decay,batch_size,shuffle,drop_last,optimizer,dropout_prob,time_elapsed,best_epoch,mse_mean_val,mse_mean_train
+80,120,105,100 120 105,old run,120,DiceLoss,0.01,0,1,1,0,Adam,0,42418.27 sec,55,0.106698974,0.0591847
+80,120,105,100 120 105,weird no mask no pretrain run because of the subvolume,120,DiceLoss,0.01,0,1,TRUE,FALSE,Adam,0,42708.73 sec,104,0.789447705,0.783727374
+80,120,105,100 120 105,old run,120,DiceLoss,0.01,0,1,TRUE,FALSE,Adam,0,42769.25 sec,55,0.106698974,0.0591847
+72,100,120,72 100 120,V01 no mask no pretrain,120,DiceLoss,0.01,0,1,TRUE,FALSE,Adam,0,32986.45 sec,65,0.102624527,0.063909
+80,120,105,100 120 105,V01 no mask pretrain dhcp no mask,120,DiceLoss,0.01,0,1,TRUE,FALSE,Adam,0,42361.21 sec,116,0.111115703,0.030939468
+80,120,105,100 120 105,V01 no mask pretrain dhcp mask,120,DiceLoss,0.01,0,1,TRUE,FALSE,Adam,0,42457.38 sec,55,0.106698974,0.0591847

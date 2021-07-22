@@ -1,0 +1,3 @@
+dim_x,dim_y,dim_z,subvolume_size,note,epochs,loss_name,learning_rate,weight_decay,batch_size,shuffle,drop_last,optimizer,dropout_prob,time_elapsed,best_epoch,mse_mean_val,mse_mean_train
+98,125,101,98 125 101,with brain mask,50,DiceLoss,0.01,0,1,TRUE,FALSE,Adam,0,66629.67 sec,43,0.136697915,0.114166513
+98,125,101,98 125 101,without brain mask,50,DiceLoss,0.01,0,1,TRUE,FALSE,Adam,0,67875.86 sec,40,0.21119891,0.18998499
