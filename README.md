@@ -1,2 +1,2 @@
 # Preterm Neonate MRI Segmentation using Deep Learning
-Original code written by Katharine Lee, forked from https://github.com/katharine108lee/preterm_mri_autosegmentation
+Code written by Katharine Lee and Steven Ufkes, forked from https://github.com/katharine108lee/preterm_mri_autosegmentation

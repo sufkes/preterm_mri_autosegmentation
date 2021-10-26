@@ -125,7 +125,7 @@ def val_loop(dataloader, model, loss_fn, device, num_labels, verbose=False): # s
 def main(seed=489, out_dir='../runs/tests/008'):
     ### Set Parameters
     use_config_file = True
-    if(use_config_file): ## Set Parameters from Config File
+    if use_config_file: ## Set Parameters from Config File
         #Load Config File
         config_file_name = sys.argv[1]
         config_file = open(config_file_name, 'r')
